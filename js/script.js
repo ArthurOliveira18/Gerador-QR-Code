@@ -33,7 +33,8 @@ qrCodeBtn.addEventListener("click" , () =>{
 })
 
 qrInput.addEventListener("keydown" , (e) =>{
-    if (e.key === "Enter"){
+    if (e.key === "Enter"){// teste
+
         generatorQrCode()
     }
 })
